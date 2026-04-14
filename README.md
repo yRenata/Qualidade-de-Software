@@ -11,6 +11,7 @@ Este repositório reúne as atividades desenvolvidas na disciplina de Qualidade 
 - `artefatos/` → Diagramas, relatórios e evidências
 - `src/` → Código-fonte (quando aplicável)
 - `referencias/` → Materiais de apoio e bibliografia
+- `pbl` → Atividades estruturadas conforme ao modelo
 
 ## 📦 Entregas
 As entregas parciais e finais estão organizadas por atividade na pasta `docs/`.
