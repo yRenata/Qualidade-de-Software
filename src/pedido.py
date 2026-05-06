@@ -1,7 +1,11 @@
 def calcular_total_pedido(itens, valor_minimo):
-    total = sum(item["preco"] for item in itens)
+    if not itens:
+        raise ValueError("Pedido vazio")
 
-    if total < valor_minimo:
+    total = sum(item.get("preco", 0) for item in itens)
+
+    minimo_atingido = total >= valor_minimo
+    if not minimo_atingido:
         raise ValueError("Valor mínimo do pedido não atingido")
 
     return total

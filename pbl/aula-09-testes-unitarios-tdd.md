@@ -76,18 +76,25 @@ Cada integrante implementou seus testes unitários no respectivo arquivo dentro 
 ---
 
 ### 🧪 Integrante 1 – Testes (pedido)
+Foram criados testes para validar cenários principais, incluindo casos limite como valores zero, valores altos e situações de erro.
 
 #### Teste 1 – Valor acima do mínimo
+Para rodar os testes copie e cole: pytest tests/test_pedido.py
 
 - Nome: calcular_total_quando_valor_minimo_atingido
-- Cenário: pedido com valor maior que o mínimo
+- Cenário: pedido com valor maior ou igual ao mínimo
 - Entrada: itens = [10, 20], valor_minimo = 15
 - Resultado esperado: retornar 30 
 
 ##### TDD
 - Red: Primeiro escrevi o teste, mas ele falhou porque a função ainda não existia.  
-- Green: Implementei a função de forma simples, apenas somando os valores dos itens para fazer o teste passar.  
-- Refactor: Depois melhorei o código adicionando a validação do valor mínimo e tratamento de erro, garantindo que a regra de negócio fosse atendida.  
+![alt text](image-5.png)
+![alt text](image.png)
+- Green: Fiz primeiro a versão mais simples possível, só somando os valores pra fazer o teste passar.  
+![alt text](image-2.png)
+![alt text](image-1.png)
+- Refactor: Depois melhorei o código adicionando a validação do valor mínimo e tratamento de erro, garantindo que a regra de negócio fosse atendida.
+![alt text](image-3.png)
 
 ##### Refatoração
 - Melhoria nos nomes das variáveis para maior clareza 
@@ -101,6 +108,7 @@ Cada integrante implementou seus testes unitários no respectivo arquivo dentro 
 ---
 
 #### Teste 2 – Valor abaixo do mínimo
+Para rodar os testes copie e cole: pytest tests/test_pedido.py
 
 - Nome: test_deve_gerar_erro_quando_valor_minimo_nao_atingido  
 - Cenário: pedido com valor abaixo do mínimo  
@@ -108,9 +116,14 @@ Cada integrante implementou seus testes unitários no respectivo arquivo dentro 
 - Resultado esperado: gerar erro    
 
 ##### TDD
--  Red: Teste criado esperando erro, inicialmente falhou.  
-- Green: Adicionei validação para lançar exceção.  
-- Refactor: Melhoria na estrutura da validação.  
+-  Red: O teste foi criado esperando erro, mas inicialmente falhou pois a função não tratava o caso de valor abaixo do mínimo.
+![alt text](image.png)
+![alt text](image-1.png)
+- Green: Adicionei uma validação simples para lançar exceção quando o valor mínimo não é atingido, fazendo o teste passar.
+![alt text](image-2.png)
+![alt text](image-3.png)
+- Refactor: O código foi melhorado para tratar melhor entradas inválidas e ficar mais organizado, mantendo os testes passando.
+![alt text](image-4.png)
 
 ##### Refatoração
 - Inclusão de tratamento de erro  
@@ -121,15 +134,22 @@ Cada integrante implementou seus testes unitários no respectivo arquivo dentro 
 
 
 #### Teste 3 – Valor igual ao minímo
+Para rodar os testes copie e cole: pytest tests/test_pedido.py
+
 - Nome: test_deve_aceitar_valor_igual_ao_minimo  
 - Cenário: pedido com valor igual ao mínimo  
 - Entrada: itens = [10, 5], valor_minimo = 15  
 - Resultado esperado: retornar 15  
 
 ##### TDD
-- Red: Teste criado antes da implementação, resultando em erro inicial.  
-- Green: Implementação básica para atender o teste.  
-- Refactor: Ajuste da lógica para garantir que valores iguais ao mínimo sejam aceitos.  
+- Red: O teste foi criado para aceitar valores iguais ao mínimo, mas inicialmente falhou porque a validação estava incorreta (tratando como erro).
+![alt text](image-6.png)
+![alt text](image-7.png)
+- Green:  Ajustei a condição para permitir valores iguais ao mínimo, fazendo o teste passar.
+![alt text](image-8.png)
+![alt text](image-9.png)
+- Refactor: Melhorei a legibilidade da validação, deixando a regra mais clara sem alterar o comportamento. 
+![alt text](image-10.png)
 
 ##### Refatoração
 - Ajuste da condição de validação  
