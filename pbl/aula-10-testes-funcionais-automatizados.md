@@ -14,10 +14,10 @@
 Login de usuário
 
 🔎 **Descrição**  
-Permite autenticar um usuário no sistema.
+Permite que o usuário faça autenticação no sistema utilizando e-mail e senha.
 
 🎯 **Importância**  
-Fluxo essencial para acesso às funcionalidades.
+O login é um fluxo essencial, pois sem ele o usuário não consegue acessar as funcionalidades principais da plataforma.
 
 ---
 
@@ -35,9 +35,10 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 🧠 Observações
 
-- O Codegen ajudou a iniciar rapidamente o teste  
-- O código gerado é verboso  
-- Foi necessário refatorar  
+- O Codegen facilitou a criação inicial do teste 
+- O código gerado automaticamente ficou muito extenso  
+- Foi necessário ajustar seletores e organizar melhor o código
+- Alguns elementos precisaram de seletores mais específicos 
 
 ---
 
@@ -49,9 +50,10 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 📌 O que o teste faz?
 
-- Acessa o sistema  
-- Realiza login  
-- Valida mensagem de sucesso  
+- Abre a aplicação no navegador
+- Preenche os campos de login 
+- Realiza a autenticação do usuário
+- Verifica se o login foi realizado corretamente 
 
 ---
 
@@ -67,9 +69,10 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 🧠 Melhorias realizadas
 
-- Separação entre teste e lógica de UI  
-- Código mais organizado  
-- Maior reutilização  
+- Separação da lógica da interface e do teste  
+- Melhor organização do código  
+- Facilidade para manutenção futura
+- Reaproveitamento dos métodos criados
 
 ---
 
@@ -89,21 +92,21 @@ pytest
 
 ### 📸 Evidência
 
-(Inserir print ou link)
+![alt text](image.png)
 
 ---
 
 ## 🔹 6. Análise crítica
 
-- O teste quebrou ao alterar textos da interface  
-- Seletores por texto são frágeis  
-- Teste precisa de melhorias para ser mais robusto  
+- Seletores genéricos causaram falhas
+- Foi necessário utilizar id e class
+- O Codegen gera código pouco organizado
 
 ---
 
 ## 🔹 7. Reflexão
 
-- Testes automatizados não substituem testes manuais  
+- Pequenos detalhes impactam os testes  
 - Devem focar em fluxos críticos  
 - Aumentam a confiança no sistema  
 
@@ -111,4 +114,6 @@ pytest
 
 ## 💡 Conclusão
 
-A automação de testes melhora a qualidade, mas exige boas práticas para manutenção.
+Com essa atividade foi possível desenvolver e automatizar o fluxo de login utilizando Playwright e Pytest. Além da criação do teste automatizado, também foi necessário ajustar seletores, corrigir falhas e refatorar o código utilizando Page Object Model.
+
+A prática mostrou a importância da automação de testes para validar funcionalidades importantes do sistema, além de demonstrar como boas práticas ajudam a tornar os testes mais organizados, reutilizáveis e fáceis de manter.
