@@ -31,7 +31,7 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 🔗 Link para o código gerado
 
-👉 https://github.com/seu-repositorio/tests/codegen_login.py
+👉 https://github.com/yRenata/Qualidade-de-Software/blob/main/tests/codegen_login.py
 
 ### 🧠 Observações
 
@@ -46,7 +46,7 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 🔗 Link para o teste
 
-👉 https://github.com/seu-repositorio/tests/test_login.py
+👉 https://github.com/yRenata/Qualidade-de-Software/blob/main/tests/test_login_page.py
 
 ### 📌 O que o teste faz?
 
@@ -61,11 +61,11 @@ playwright codegen https://local-eats-unisenac.vercel.app/
 
 ### 🔗 Link para Page Object
 
-👉 https://github.com/seu-repositorio/pages/login_page.py
+👉 https://github.com/yRenata/Qualidade-de-Software/blob/main/pages/login_page.py
 
 ### 🔗 Link para teste refatorado
 
-👉 https://github.com/seu-repositorio/tests/test_login.py
+👉 https://github.com/yRenata/Qualidade-de-Software/blob/main/tests/test_login_page.py
 
 ### 🧠 Melhorias realizadas
 
