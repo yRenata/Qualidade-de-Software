@@ -350,7 +350,7 @@ Ajuda a transformar requisitos em cenários automatizados mais organizados e fá
 # 📦 Repositório GitHub
 
 ```text
-https://github.com/grupo-exemplo/local-eats-bdd
+https://github.com/yRenata/Qualidade-de-Software/blob/main/pbl/aula-12-bdd-automacao-comportamento.md
 ```
 
 ---
