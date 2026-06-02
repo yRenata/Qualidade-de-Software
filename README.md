@@ -7,14 +7,18 @@
 Este repositório reúne as atividades desenvolvidas na disciplina de Qualidade de Software, realizadas por meio da metodologia PBL.
 
 ## 📚 Organização
-- `docs/` → Atividades realizadas ao longo das aulas
-- `artefatos/` → Diagramas, relatórios e evidências
+- `features/` → Features realizadas na aula 12
+- `pages/` → Pages realizadas na aula 10
+- `testes/` → Ambiente de testes realizados durante as aulas
+- `evidencias/` → Prints separados por aula
 - `src/` → Código-fonte (quando aplicável)
 - `referencias/` → Materiais de apoio e bibliografia
 - `pbl` → Atividades estruturadas conforme ao modelo
 
 ## 📦 Entregas
-As entregas parciais e finais estão organizadas por atividade na pasta `docs/`.
+Entregas parciais/finais:
+- Entrega Parcial 1 ✅
+- Entrega Parcial 2 ✅
 
 ## 🧩 Metodologia
 Aprendizagem Baseada em Problemas (PBL), com foco no desenvolvimento de competências em qualidade de software.
