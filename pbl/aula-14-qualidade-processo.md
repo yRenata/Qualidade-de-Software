@@ -9,23 +9,17 @@
 
 ### Fluxo Atual da Equipe
 
-![alt text](LocalEats-Fluxograma.png)
+(LocalEats-Fluxograma.png)
 
 ## 2. Entradas, Atividades e Saídas
 
-+------------------------+------------------------------+------------------------------------------+----------------------------------+
 | Etapa                  | Entrada                      | Atividade                                | Saída                            |
 |------------------------|------------------------------|------------------------------------------|----------------------------------|
 | Recebimento da demanda | Feedbacks e metas LocalEats  | Análise e criação de user stories        | Backlog de tarefas pronto        |
-|------------------------+------------------------------+------------------------------------------+----------------------------------+
 | Desenvolvimento        | User stories e requisitos    | Telas no Figma e código do app           | Interface e código integrados    |
-|------------------------+------------------------------+------------------------------------------+----------------------------------+
 | Testes                 | Código e telas integradas    | Testes funcionais, UI e acessibilidade   | Erros e falhas de UI listados    |
-|------------------------+------------------------------+------------------------------------------+----------------------------------+
 | Correções              | Relatório de bugs e falhas   | Ajustes de código e layout no Figma      | Versão corrigida para reteste    |
-|------------------------+------------------------------+------------------------------------------+----------------------------------+
-| Entrega                | App homologado e testado     | Reunião, deploy e monitoramento          | Nova função LocalEats liberada   |
-+------------------------+------------------------------+------------------------------------------+----------------------------------+
+| Entrega                | App homologado e testado     | Homologação, deploy e monitoramento      | Nova função LocalEats liberada   |
 
 ## 3. Reflexão sobre o Processo
 
