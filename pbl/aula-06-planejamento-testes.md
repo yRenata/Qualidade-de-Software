@@ -169,11 +169,11 @@ Preencha a tabela com os resultados obtidos.
 
 | ID     | Resultado (Passou/Falhou) | Evidência (descrição ou print) |
 |--------|--------------------------|--------------------------------|
-| CT-01  |        PASSOU            | ![alt text](image.png)         |
-| CT-02  |        PASSOU            | ![alt text](image.png) ![alt text](image-1.png) |
-| CT-03  |        FALHOU            | ![alt text](image.png) ![alt text](image-1.png) |
-| CT-04  |        FALHOU            | ![alt text](image.png) ![alt text](image-1.png) ![alt text](image-2.png) |
-| CT-05  |        FALHOU            | ![alt text](image-3.png) |
+| CT-01  |        PASSOU            | (CT-01.png)         |
+| CT-02  |        PASSOU            | (CT-02.png) (CT-002.png) |
+| CT-03  |        FALHOU            | (CT-03.png) (CT-003.png) |
+| CT-04  |        FALHOU            | (CT-04.png) (CT-004.png) (CT-0004.png) |
+| CT-05  |        FALHOU            | (CT05.png) |
 
 ---
 
